@@ -103,7 +103,7 @@ footer ul li:hover::after {
 }
 .banner2{
     background-image: url(./Assets/contact\ banner.png);
-   height: 140vh;
+   height: 120vh;
     
     background-size: cover;
     background-position: center;
@@ -310,7 +310,7 @@ nav img{
     display: none;
 }
 .banner3{
-    height: 120vh !important;
+    height: 100vh !important;
 }
 @media(max-width:900px){
     .about{
