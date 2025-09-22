@@ -234,9 +234,10 @@ text-transform: capitalize;
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .about{
-    height: 50px ;
+   
     background-color: #610C27 ;
     height: 100%;
     width: 100%;
@@ -304,6 +305,9 @@ nav img{
 .logo img{
     display: none;
 }
+.banner3{
+    height: 120vh !important;
+}
 @media(max-width:900px){
     .about{
     padding: 50px 50px;
@@ -311,6 +315,9 @@ nav img{
     }
 }
 @media(max-width:650px){
+    .about img{
+        display: none;
+    }
     .logo img{
     display: flex;
     width: 150px;
@@ -343,6 +350,9 @@ footer ul li {
 }
   .about{
     padding: 50px 20px;
+    align-items: start;
+    justify-content: start;
+
 
     }
     .contact-us-right-form h3{
