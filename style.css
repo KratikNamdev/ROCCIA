@@ -103,7 +103,7 @@ footer ul li:hover::after {
 }
 .banner2{
     background-image: url(./Assets/contact\ banner.png);
-   
+   height: 130vh;
 }
 .contact-us{
     display: flex;
