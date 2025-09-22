@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCCIA</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+        <img src="./Assets/logo.png" alt="">
+    </div>
+    <div class="nav-list"> 
+<a href="./contact.html">
+
+    <button>CONTACT US</button>
+</a>
+        <img src="./Assets/iconoir_search.png" alt="search" class="icon">
+        <img src="./Assets/icon-park-outline_hamburger-button.png" alt="menu" class="hamburger" id="hamburger">
+    </div>
+</nav>
+    <div class="banner banner2">
+<div class="contact-us">
+    <div class="contact-us-left">
+
+<h3>You Have a Vision,</h3>
+<h3>We Have the Mastery.</h3>
+<p>Discover bespoke 3D sculptures and statement marble furniture, thoughtfully crafted to embody artistic innovation and enduring value. Your unique space awaits its defining masterpiece.</p>
+    </div>
+    <div class="contact-us-right">
+<div class="contact-us-right-form">
+    <h3>Let's bring your vision to life.</h3>
+    <p>Our artisans are ready to craft your one-of-a-kind masterpiece.</p>
+    <div class="ips">
+        <div class="ip">
+<input type="text" placeholder="First Name">
+        </div>
+        <div class="ip">
+<input type="text" placeholder="Last Name">
+        </div>
+    </div>
+ <div class="ips">
+        <div class="ip">
+<input type="text" placeholder="Email">
+        </div>
+        <div class="ip">
+<input type="text" placeholder="Phone Number">
+        </div>
+    </div>
+<div class="ips">
+  <div class="ip">
+    <select>
+      <option value="">Select City</option>
+      <option value="indore">Indore</option>
+      <option value="delhi">Delhi</option>
+      <option value="mumbai">Mumbai</option>
+    </select>
+  </div>
+  
+  <div class="ip">
+    <select>
+      <option value="">Select Country</option>
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+    </select>
+  </div>
+</div>
+<br/>
+<label>Nature of Inquiry</label>
+<br/>
+
+<div class="labels">
+<div class="label-div">
+<p>Bespoke Marble Bathtub</p>
+</div>
+<div class="label-div">
+<p>Custom Wash Basin / Sink</p>
+</div>
+<div class="label-div">
+<p>Statement Furniture</p>
+</div>
+<div class="label-div">
+<p>3D Sculpture Commission</p>
+</div>
+<div class="label-div">
+<p>Architectural Project</p>
+</div>
+<div class="label-div">
+<p>General Inquiry</p>
+</div>
+</div>
+<div class="check-div">
+<input type="checkbox">
+<p>i’d like to receive exclusive offer and updates.</p>
+</div>
+<button>Request a Consultation</button>
+    </div>
+
+    </div>
+</div>
+       
+<footer>
+        <div>
+            <img src="./Assets/logo.png" alt="">
+        </div>
+        <div>
+            <ul>
+                
+                <li>CASA</li>
+                <li>BAGNO</li>
+                <li>LUCE</li>
+                <li>PRIVE</li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+           
+ 
+   <div class="toggle-menu" id="toggleMenu">
+  <button class="close-btn" id="closeMenu">✕</button>
+  <ul>
+    <a href="/index.html">
+
+        <li>Home</li>
+    </a>
+    <a href="./about.html">
+
+        <li>About</li>
+    </a>
+    <a href="./contact.html">
+
+        <li>Contact Us</li>
+    </a>
+  </ul>
+</div>
+
+
+    
+<script>
+  // JavaScript
+  const hamburger = document.getElementById('hamburger');
+  const toggleMenu = document.getElementById('toggleMenu');
+  const closeMenu = document.getElementById('closeMenu');
+
+  hamburger.addEventListener('click', () => {
+    toggleMenu.style.display = 'flex'; // show menu
+  });
+
+  closeMenu.addEventListener('click', () => {
+    toggleMenu.style.display = 'none'; // hide menu
+  });
+</script>
+</body>
+</html>
