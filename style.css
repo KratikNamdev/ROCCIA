@@ -422,3 +422,9 @@ footer ul li {
 ul a{
     text-decoration: none;
 }
+.bi-search , .bi-list{
+    font-size: 20px;
+    color: #e1ddd2;
+    cursor: pointer;
+
+}
