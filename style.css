@@ -343,6 +343,9 @@ footer{
     gap: 15px;
 
 }
+footer img{
+    display: none;
+}
 footer ul{
     gap: 25px;
     
