@@ -63,16 +63,16 @@
 <script>
   // JavaScript
   const hamburger = document.getElementById('hamburger');
-  const toggleMenu = document.getElementById('toggleMenu');
-  const closeMenu = document.getElementById('closeMenu');
+const toggleMenu = document.getElementById('toggleMenu');
+const closeMenu = document.getElementById('closeMenu');
 
-  hamburger.addEventListener('click', () => {
-    toggleMenu.style.display = 'flex'; // show menu
-  });
+hamburger.addEventListener('click', () => {
+  toggleMenu.style.left = '0'; // slide in
+});
 
-  closeMenu.addEventListener('click', () => {
-    toggleMenu.style.display = 'none'; // hide menu
-  });
+closeMenu.addEventListener('click', () => {
+  toggleMenu.style.left = '-100%'; // slide out
+});
 </script>
 </body>
 </html>
